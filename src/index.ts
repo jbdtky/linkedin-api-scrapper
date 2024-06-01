@@ -24,7 +24,8 @@ export type Job = {
  * keywords: ['engineer']
  * location: ex = Australia
  * locationType: 1 = on site; 2 = remote; hybrid = 3
- * sortBy
+ * sortBy: relevant; recent
+ * debug: boolean
  */
 export const queryJobs = async (args: {
   host?: string;

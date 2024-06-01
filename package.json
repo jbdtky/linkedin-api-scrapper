@@ -1,5 +1,5 @@
 {
-  "name": "scrap-linkedin-api",
+  "name": "linkedin-api-scrapper",
   "version": "0.0.0",
   "scripts": {
     "build": "tsc",

@@ -33,5 +33,6 @@ const jobs = scrapper
 | location     | Location filter for job search       | String, e.g., 'Australia'                        |
 | locationType | Type of location                     | Number, e.g, 1 = on site; 2 = remote; 3 = hybrid |
 | sortBy       | Sorting criteria for job results     | String, e.g., 'relevant', 'recent'               |
+| debug        | Print debug log                      | Boolean                                          |
 
 You can adjust the options as needed for your specific query requirements.
