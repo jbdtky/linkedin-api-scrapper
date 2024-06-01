@@ -13,6 +13,8 @@ The API results is 10 jobs. If you want to load all results, implements a loop w
 #### Example
 
 ```Typescript
+import * as scrapper from "./index";
+
 // Get the first 10 jobs for my query
 const jobs = scrapper
   .queryJobs({

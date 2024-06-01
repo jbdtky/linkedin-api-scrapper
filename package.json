@@ -1,18 +1,24 @@
 {
   "name": "linkedin-api-scrapper",
-  "version": "0.0.0",
+  "version": "0.2.0",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "tsc",
+    "test": "mocha",
     "compile": "tsc --declaration",
     "lint": "tslint --project tsconfig.json",
     "prepublish": "npm run compile",
-    "test": "mocha"
+    "publish": "npm publish --access public"
   },
   "engines": {
     "node": "20.x.x"
   },
   "author": "Jean-Baptiste Dominguez",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbdtky/linkedin-api-scrapper.git"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
