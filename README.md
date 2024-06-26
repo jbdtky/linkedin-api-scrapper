@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install scrap-linkedin-api --save`
+`npm install linkedin-api-scrapper --save`
 
 ## Usage
 
