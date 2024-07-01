@@ -1,4 +1,4 @@
-# scrap-linkedin-api
+# linkedin-api-scrapper
 
 ## Installation
 
